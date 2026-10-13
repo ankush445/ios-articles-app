@@ -32,7 +32,7 @@ Open the project in Xcode 26 or later. The app runs on iOS 18.0 and later, inclu
 | Architecture | MVC |
 | UI | UIKit storyboard and XIB, plus one SwiftUI view |
 | Minimum iOS | 18.0 |
-| iOS 26 | Back and heart buttons use Liquid Glass. On iOS 18–25 they are solid circles. |
+| iOS 26 | The detail back button uses Liquid Glass. On iOS 18–25 it is a solid circle. |
 
 ## Run the app
 
@@ -181,7 +181,8 @@ XCGLogger also pulls in **ObjcExceptionBridging 7.1.5**. The app does not call t
 - A missing article image shows the `placeholder` asset. The date uses the `calendar` asset and the Read More button uses the `arrow` asset.
 - Card dates use the form `24 Oct,2021`. The detail screen shows a short relative time, such as `10h ago`.
 - Text uses Dynamic Type, so it grows with the system text size.
-- On iOS 26 the back and heart buttons use Liquid Glass. On iOS 18 they are solid circles. The blue **Read More** button stays filled on every version.
+- The detail header is `#233D46` through the title and time. The photo overlaps that edge: the top half stays on the dark header and the bottom half sits on the light background. The full article text follows the photo. On iPad the same layout fills the right column, and the back button stays hidden.
+- On iOS 26 the detail back button uses Liquid Glass. On iOS 18 it is a solid circle. The heart is a white icon. The blue **Read More** button stays filled on every version.
 - The app is locked to light mode so the colors stay the same as the design.
 
 ## Assumptions

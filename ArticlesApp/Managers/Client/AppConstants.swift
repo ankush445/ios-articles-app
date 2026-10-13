@@ -10,6 +10,8 @@ enum AppColors {
     static let accent = UIColor(red: 25.0 / 255.0, green: 90.0 / 255.0, blue: 148.0 / 255.0, alpha: 1)
     /// Muted date color on a dark card.
     static let dateOnCard = UIColor(red: 0.655, green: 0.745, blue: 0.784, alpha: 1)
+    /// Light gray behind the detail article text.
+    static let detailPage = UIColor(white: 0.95, alpha: 1)
     /// Body text on the detail screen.
     static let body = UIColor(red: 0.420, green: 0.455, blue: 0.490, alpha: 1)
 }
